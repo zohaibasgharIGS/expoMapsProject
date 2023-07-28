@@ -9,22 +9,37 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#252525"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyDw929i9E-YP_eDiYm5RnbNRpxoZkX-NH8"
+      },
+      "bundleIdentifier": "com.meharzohaib123.mapsProject"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDw929i9E-YP_eDiYm5RnbNRpxoZkX-NH8"
+        }
+      },
+      "package": "com.meharzohaib123.mapsProject"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f8544c00-6076-49e2-935e-42b425d4e528"
+      }
     }
   }
 }
